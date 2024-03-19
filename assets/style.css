@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+/* HEADER */
+#header{
+    background-color: rgb(37, 34, 23);
+    height: 120px;
+}
+
+.orange{
+    color: orange;
+}
+
+/* FIM HEADER*/
+
+/* GERAL */
+#geral{
+    top: 40%;
+    left: 50%;
+    width: 70%; 
+    height: 70%; 
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#geral a{
+    float: right;
+    color: orange;
+    margin: 10px;
+}
+
+/* IMAGENS */
+#primeirasImagens {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex; /* Usa flexbox para organizar os elementos */
+}
+
+#primeirasImagens img {
+    margin-right: 10px; /* Espaçamento entre as imagens */
+}
+
+/* FIM IMAGENS */
+
+/* AREAS DE BAIXO */
+#areas{
+    width: 100%;
+    height: 100px;
+}
+
+#areas h3, h4, li{
+    color: rgb(138, 161, 117);
+}
+
+#areas > div {
+    vertical-align: top;
+}
+
+#areas #conheca{
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+}
+
+#areas #conheca iframe{
+    width: 100%;
+    height: 200px;
+}
+
+#areas #conheca #descricao{
+    width: 100%;
+    margin-top: 10px;
+}
+
+#areas #mapa{
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+}
+
+#areas #mapa iframe{
+    width: 100%;
+    height: 200px;
+}
+
+#areas #mapa #descricao{
+    width: 100%;
+    margin-top: 10px;
+}
+
+#areas #mapa #descricao a{
+    float: left;
+}
+
+#areas #visita{
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    background: #cdc8b1;
+    margin-top: 10px;
+    text-align: center;
+    flex-direction: column;
+}
+
+fieldset{
+    border: none;
+}
+
+input {
+    height: 20px;
+    width: 80px;
+    background: #fff;
+    border: none;
+    font-size: 1em;
+}
+
+input.campo {
+    border: 1px solid #ada484;
+}
+
+input.botao {
+    background: #9b9271;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+}
+
+div#galeria a {
+    display: block;
+    background: url(../img/fundo-foto.png) no-repeat;
+    float: left;
+    padding: 17px 15px 17px 15px;
+    margin: 10px 0 0 20px;
+}
+
+footer {
+    clear: both;
+    padding: 20px 0 30px 0;
+    text-align: center;
+    background: url(../img/fundo-rodape.png) no-repeat center top;
+    margin-top: 20px;
+}
+
+footer > p a {
+    padding: 2px 10px;
+}
